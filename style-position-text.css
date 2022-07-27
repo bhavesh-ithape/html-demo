@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 48pt;
+    margin-bottom: 23px;
+}
+
+h2, p {
+    font-size: 18pt;
+}
+
+h2 {
+    color: #3787C8;
+}
+
+p {
+    width: 410px;
+}
+
+.container {
+    padding: 4%;
+    display: grid;
+    /* border: 2px solid red; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 720px;
+    align-items: flex-start;
+}
+
+.item {
+    /* border: 2px solid blue; */
+    margin: 78px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-left: 40px;
+    background-image: url(Screenshot\ from\ 2022-07-27\ 13-25-10-modified.png);
+    background-repeat: no-repeat;
+}
